@@ -41,5 +41,10 @@ ul{
 }
 
 li{
-  list-style: none;
+   list-style: none;
+   display: inline-block;
+}
+
+p{
+  font-family: 'Zen Maru Gothic'
 }
