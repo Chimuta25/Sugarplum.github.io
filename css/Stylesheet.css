@@ -39,6 +39,7 @@ li{
    list-style: none;
    display: block;
    text-align: center;
+   padding: 5px;
    margin: 0 auto;
 }
 
