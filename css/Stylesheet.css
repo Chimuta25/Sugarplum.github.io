@@ -13,7 +13,6 @@ body {
   border-radius: 10px;
   margin: -20px 0 0 -100px;
   padding: 2px;
-  visibility: hidden;
 }
 #loading{
   transition: all 500ms ease;
@@ -25,14 +24,12 @@ body {
   margin: 3px;
   display: inline-block;
   animation: load 2s ease infinite;
-  visibility: hidden;
 }
 #load{
   font-family: 'Niko moji';
   font-weight: bold;
   text-align: center;
   margin-top: -30px;
-  visibility: hidden;
 }
 
 @keyframes load{
