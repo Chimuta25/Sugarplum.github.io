@@ -39,7 +39,8 @@ ul{
 li{
    list-style: none;
    display: block;
-   margin: 5px;
+   text-align: center;
+   margin: 10px;
 }
 
 p{
