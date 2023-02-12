@@ -5,7 +5,7 @@ $(function (){
   $(window).on('load', function () {
     setTimeout(function () {
       end_loader();
-    setTimeout('stopload ()',2000);
+    setTimeout('stopload ()',1500);
     }, 2000)
   })
 })
