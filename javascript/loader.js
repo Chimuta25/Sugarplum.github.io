@@ -6,3 +6,8 @@ window.addEventListener('DOMContentLoaded', function(){
     setTimeout('stopload ()',2000);
     }, 2000)
   })
+
+  function stopload(){
+    bg.delay(900).fadeOut(800);
+    loader.delay(900).fadeOut(300);
+}
