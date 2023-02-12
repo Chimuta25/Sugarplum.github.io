@@ -35,6 +35,10 @@ ul{
     background-color: #f0a6a6 ;
     padding-top: 5px;
     box-sizing: border-box;
-    list-style: none;
     display: inline-block;
+    padding-left:0
+}
+
+li{
+  list-style: none;
 }
