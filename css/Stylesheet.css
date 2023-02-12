@@ -33,13 +33,14 @@ ul{
     padding-top: 5px;
     display: flex;
     box-sizing: border-box;
+    margin:0 auto;
 }
 
 li{
    list-style: none;
    display: block;
    text-align: center;
-   margin: 10 auto;
+   margin: 0 auto;
 }
 
 p{
