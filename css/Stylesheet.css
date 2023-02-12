@@ -3,6 +3,8 @@
 body {
   background-color:rgb(253, 231, 244);
   color: #333;
+}
+p{
   font-family: 'Niko moji';
 }
 #progressbar{
