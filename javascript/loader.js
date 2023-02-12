@@ -1,4 +1,4 @@
-$(function () {
+window.addEventListener('DOMContentLoaded', function(){
   function end_loader() {
     $('.loader').fadeOut(800);
   }
