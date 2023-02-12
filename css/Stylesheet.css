@@ -4,6 +4,7 @@ body {
   color: #333;
 }
 #progressbar{
+  background-color:rgb(253, 231, 244);
   height: 26px;
   position: absolute;
   left: 50%;
