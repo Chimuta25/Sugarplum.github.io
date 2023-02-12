@@ -2,6 +2,7 @@
 /*ロード画面*/
 body {
   color: #333;
+  font-family: 'Niko moji';
 }
 #progressbar{
   background-color:rgb(253, 231, 244);
