@@ -24,6 +24,7 @@ body {
   margin: 3px;
   display: inline-block;
   animation: load 2s ease infinite;
+  display:none;
 }
 #load{
   font-family: Arial;
