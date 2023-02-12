@@ -19,11 +19,11 @@ body {
   height: 20px;
   width: calc(100% - 10px);
   border-radius: 8px;
-  background: #474747;
+  background: #b0e4ee;
   position: absolute;
   margin: 3px;
   display: inline-block;
-  animation: load 15s ease infinite;
+  animation: load 2s ease infinite;
 }
 #load{
   font-family: Arial;
