@@ -22,11 +22,9 @@
 /*ヘッダー画面*/
 
 h1{
-    text-align: center;
-    padding : auto;
-    font-family:'Nico moji';
-    font-size:30px;
-    color: #f0a6a6
+  margin-bottom: auto;
+  text-align: center;
+
 }
 
 ul{
