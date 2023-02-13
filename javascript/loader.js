@@ -1,15 +1,10 @@
-var loading2_on = function() {
-  $(document.body).append("<div id=\"blind\"><span class=\"loading22\"></span></div>");
-};
-var loading2_off = function() {
-  $("#blind").remove();
-};
-var hoge2 = function() {
-  loading2_on();
-  $.ajax( {
-      "url": "",
-      "complete": function() {
-          loading2_off();
-      }
-  } );
-};
+$(function () {
+  function end_loader() {
+    $('.loader').fadeOut(800);
+  }
+  $(window).on('load', function () {
+    setTimeout(function () {
+      end_loader();
+    }, 3000)
+  })
+})
