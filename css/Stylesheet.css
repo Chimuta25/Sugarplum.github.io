@@ -1,39 +1,61 @@
 @charset "UTF-8";
 /*ロード画面*/
-span.loading22 {
-  text-align:center;
-  position: relative;
+span.loading03, span.loading03:after {
   display: inline-block;
-  width: 170px;
-  height: 17px;
-  border: 1px solid #ccffff;
-  overflow: hidden;
-  border-radius: 5px;
-  background-repeat: repeat-x;
-  background-size: 34px 100%;
-  background-image: -webkit-linear-gradient(20deg,#ccffff 10.2px,transparent 0),-webkit-linear-gradient(200deg,#ccffff 10.2px,transparent 0);
-  background-image: linear-gradient(70deg,#ccffff 10.2px,transparent 0),linear-gradient(250deg,#ccffff 10.2px,transparent 0);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-image:
+  -webkit-gradient(radial,1 center,0,1 center,1,from(#de3b0a),color-stop(0.5,#de3b0a),color-stop(0.9,transparent),to(transparent)),
+  -webkit-gradient(radial,center 1,0,center 1,1,from(#de3b0a),color-stop(0.5,#de3b0a),color-stop(0.9,transparent),to(transparent)),
+  -webkit-gradient(radial,19 center,0,19 center,1,from(#de3b0a),color-stop(0.5,#de3b0a),color-stop(0.9,transparent),to(transparent)),
+  -webkit-gradient(radial,center 19,0,center 19,1,from(#de3b0a),color-stop(0.5,#de3b0a),color-stop(0.9,transparent),to(transparent));
+  background-image:
+  -webkit-radial-gradient(10% 50%, 1px 1px, #de3b0a, #de3b0a 95%, #de3b0a 95%, transparent),
+  -webkit-radial-gradient(50% 10%, 1px 1px, #de3b0a, #de3b0a 95%, #de3b0a 95%, transparent),
+  -webkit-radial-gradient(90% 50%, 1px 1px, #de3b0a, #de3b0a 95%, #de3b0a 95%, transparent),
+  -webkit-radial-gradient(50% 90%, 1px 1px, #de3b0a, #de3b0a 95%, #de3b0a 95%, transparent);
+  background-image:
+  radial-gradient(1px 1px at 10% 50%, #de3b0a, #de3b0a 95%, transparent),
+  radial-gradient(1px 1px at 50% 10%, #de3b0a, #de3b0a 95%, transparent),
+  radial-gradient(1px 1px at 90% 50%, #de3b0a, #de3b0a 95%, transparent),
+  radial-gradient(1px 1px at 50% 90%, #de3b0a, #de3b0a 95%, transparent);
+}
+span.loading03 {
+  position: relative;
+  margin: 0 10px;
   vertical-align: middle;
-  -webkit-animation: animation22 2s linear infinite;
-  animation: animation22 2s linear infinite;
+  -webkit-animation: animation03 2s linear infinite;
+  animation: animation03 2s linear infinite;
+}
+span.loading03:after {
+  position: absolute;
+  content: " ";
+  left: 0;
+  top: 0;
+  margin: 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
-  @-webkit-keyframes animation22 {
+@-webkit-keyframes animation03 {
   0% {
-    background-position: 0, 0;
+    -webkit-transform: rotate(0deg);
   }
   100% {
-    background-position: 100%, 100%;
+    -webkit-transform: rotate(360deg);
   }
 }
-@keyframes animation22 {
+@keyframes animation03 {
   0% {
-    background-position: 0, 0;
+    transform: rotate(0deg);
   }
   100% {
-    background-position: 100%, 100%;
+    transform: rotate(360deg);
   }
-}
+}　
+
+
 /*ヘッダー画面*/
 
 h1{
