@@ -12,4 +12,8 @@ var hoge2 = function() {
           loading2_off();
       }
   } );
-};　
+};
+
+$(window).load(function() {
+	$("#loader").fadeOut(400, function(){ $(this).remove(); });
+});
