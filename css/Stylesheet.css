@@ -1,48 +1,38 @@
 @charset "UTF-8";
 /*ロード画面*/
-body {
-  background-color:rgb(253, 231, 244);
-  color: #333;
-}
-p{
-  font-family: 'Niko moji';
-  margin: 0 auto;
-}
-#progressbar{
-  height: 26px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 200px;
-  background: rgba(159, 159, 159, 0.5);
-  border-radius: 10px;
-  margin: -20px 0 0 -100px;
-  padding: 2px;
-}
-#loading{
-  transition: all 500ms ease;
-  height: 20px;
-  width: calc(100% - 10px);
-  border-radius: 8px;
-  background: #b0e4ee;
-  position: absolute;
-  margin: 3px;
+span.loading22 {
+  position: relative;
   display: inline-block;
-  animation: load 2s ease infinite;
-}
-#load{
-  font-family: 'Niko moji';
-  font-weight: bold;
-  text-align: center;
-  margin-top: -30px;
+  width: 170px;
+  height: 17px;
+  border: 1px solid #ccffff;
+  overflow: hidden;
+  border-radius: 5px;
+  background-repeat: repeat-x;
+  background-size: 34px 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#ccffff), color-stop(0.3, #ccffff), color-stop(0.31, transparent), to(transparent) ),
+  -webkit-gradient(linear, left bottom, right top, from(transparent), color-stop(0.69, transparent), color-stop(0.7, #ccffff), to(#ccffff) );
+  background-image: -webkit-linear-gradient(20deg,#ccffff 10.2px,transparent 0),-webkit-linear-gradient(200deg,#ccffff 10.2px,transparent 0);
+  background-image: linear-gradient(70deg,#ccffff 10.2px,transparent 0),linear-gradient(250deg,#ccffff 10.2px,transparent 0);
+  vertical-align: middle;
+  -webkit-animation: animation22 2s linear infinite;
+  animation: animation22 2s linear infinite;
 }
 
-@keyframes load{
-  0%{
-    width: 2%;
+  @-webkit-keyframes animation22 {
+  0% {
+    background-position: 0, 0;
   }
-  10%{
-    width: 10%;
+  100% {
+    background-position: 100%, 100%;
+  }
+}
+@keyframes animation22 {
+  0% {
+    background-position: 0, 0;
+  }
+  100% {
+    background-position: 100%, 100%;
   }
 }
 /*ヘッダー画面*/
