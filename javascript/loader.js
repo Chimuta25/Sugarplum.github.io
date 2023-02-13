@@ -5,6 +5,6 @@ $(function () {
   $(window).on('load', function () {
     setTimeout(function () {
       end_loader();
-    }, 1000)
+    }, 1500)
   })
 })
