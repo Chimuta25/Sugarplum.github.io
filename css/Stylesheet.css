@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*ロード画面*/
-span.loading03, span.loading03:after {
+span.loading22, span.loading22:after {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -21,14 +21,14 @@ span.loading03, span.loading03:after {
   radial-gradient(1px 1px at 90% 50%, #de3b0a, #de3b0a 95%, transparent),
   radial-gradient(1px 1px at 50% 90%, #de3b0a, #de3b0a 95%, transparent);
 }
-span.loading03 {
+span.loading22 {
   position: relative;
   margin: 0 10px;
   vertical-align: middle;
   -webkit-animation: animation03 2s linear infinite;
   animation: animation03 2s linear infinite;
 }
-span.loading03:after {
+span.loading22:after {
   position: absolute;
   content: " ";
   left: 0;
