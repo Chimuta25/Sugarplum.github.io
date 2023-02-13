@@ -10,8 +10,10 @@ span.loading22 {
   border-radius: 5px;
   background-repeat: repeat-x;
   background-size: 40px 100%;
-  background-image: -webkit-linear-gradient(20deg,#e2f8fd 3px,transparent 0),-webkit-linear-gradient(200deg,#e2f8fd 3px,transparent 0);
-  background-image: linear-gradient(70deg,#e2f8fd 3px,transparent 0),linear-gradient(250deg,#e2f8fd 3px,transparent 0);
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#e2f8fd), color-stop(0.3, #e2f8fd), color-stop(0.31, transparent), to(transparent) ),
+  -webkit-gradient(linear, left bottom, right top, from(transparent), color-stop(0.69, transparent), color-stop(0.7, #e2f8fd), to(#e2f8fd) );
+  background-image: -webkit-linear-gradient(20deg,#e2f8fd 12px,transparent 0),-webkit-linear-gradient(200deg,#e2f8fd 12px,transparent 0);
+  background-image: linear-gradient(70deg,#e2f8fd 12px,transparent 0),linear-gradient(250deg,#e2f8fd 12px,transparent 0);
   vertical-align: middle;
   -webkit-animation: animation22 2s linear infinite;
   animation: animation22 2s linear infinite;
@@ -33,7 +35,6 @@ span.loading22 {
     background-position: 100%, 100%;
   }
 }
-
 
 /*ヘッダー画面*/
 
