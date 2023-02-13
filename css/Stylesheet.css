@@ -12,8 +12,6 @@ span.loading22 {
   border-radius: 5px;
   background-repeat: repeat-x;
   background-size: 34px 100%;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#ccffff), color-stop(0.3, #ccffff), color-stop(0.31, transparent), to(transparent) ),
-  -webkit-gradient(linear, left bottom, right top, from(transparent), color-stop(0.69, transparent), color-stop(0.7, #ccffff), to(#ccffff) );
   background-image: -webkit-linear-gradient(20deg,#ccffff 10.2px,transparent 0),-webkit-linear-gradient(200deg,#ccffff 10.2px,transparent 0);
   background-image: linear-gradient(70deg,#ccffff 10.2px,transparent 0),linear-gradient(250deg,#ccffff 10.2px,transparent 0);
   vertical-align: middle;
