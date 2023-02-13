@@ -1,59 +1,40 @@
 @charset "UTF-8";
 /*ロード画面*/
-span.loading22, span.loading22:after {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-repeat: no-repeat;
-  background-image:
-  -webkit-gradient(radial,1 center,0,1 center,1,from(#de3b0a),color-stop(0.5,#de3b0a),color-stop(0.9,transparent),to(transparent)),
-  -webkit-gradient(radial,center 1,0,center 1,1,from(#de3b0a),color-stop(0.5,#de3b0a),color-stop(0.9,transparent),to(transparent)),
-  -webkit-gradient(radial,19 center,0,19 center,1,from(#de3b0a),color-stop(0.5,#de3b0a),color-stop(0.9,transparent),to(transparent)),
-  -webkit-gradient(radial,center 19,0,center 19,1,from(#de3b0a),color-stop(0.5,#de3b0a),color-stop(0.9,transparent),to(transparent));
-  background-image:
-  -webkit-radial-gradient(10% 50%, 1px 1px, #de3b0a, #de3b0a 95%, #de3b0a 95%, transparent),
-  -webkit-radial-gradient(50% 10%, 1px 1px, #de3b0a, #de3b0a 95%, #de3b0a 95%, transparent),
-  -webkit-radial-gradient(90% 50%, 1px 1px, #de3b0a, #de3b0a 95%, #de3b0a 95%, transparent),
-  -webkit-radial-gradient(50% 90%, 1px 1px, #de3b0a, #de3b0a 95%, #de3b0a 95%, transparent);
-  background-image:
-  radial-gradient(1px 1px at 10% 50%, #de3b0a, #de3b0a 95%, transparent),
-  radial-gradient(1px 1px at 50% 10%, #de3b0a, #de3b0a 95%, transparent),
-  radial-gradient(1px 1px at 90% 50%, #de3b0a, #de3b0a 95%, transparent),
-  radial-gradient(1px 1px at 50% 90%, #de3b0a, #de3b0a 95%, transparent);
-}
 span.loading22 {
   position: relative;
-  margin: 0 10px;
+  display: inline-block;
+  width: 50px;
+  height: 5px;
+  border: 1px solid #e2f8fd;
+  overflow: hidden;
+  border-radius: 5px;
+  background-repeat: repeat-x;
+  background-size: 10px 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#e2f8fd), color-stop(0.3, #e2f8fd), color-stop(0.31, transparent), to(transparent) ),
+  -webkit-gradient(linear, left bottom, right top, from(transparent), color-stop(0.69, transparent), color-stop(0.7, #e2f8fd), to(#e2f8fd) );
+  background-image: -webkit-linear-gradient(20deg,#e2f8fd 3px,transparent 0),-webkit-linear-gradient(200deg,#e2f8fd 3px,transparent 0);
+  background-image: linear-gradient(70deg,#e2f8fd 3px,transparent 0),linear-gradient(250deg,#e2f8fd 3px,transparent 0);
   vertical-align: middle;
-  -webkit-animation: animation03 2s linear infinite;
-  animation: animation03 2s linear infinite;
-}
-span.loading22:after {
-  position: absolute;
-  content: " ";
-  left: 0;
-  top: 0;
-  margin: 0;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+  -webkit-animation: animation22 2s linear infinite;
+  animation: animation22 2s linear infinite;
 }
 
-@-webkit-keyframes animation03 {
+  @-webkit-keyframes animation22 {
   0% {
-    -webkit-transform: rotate(0deg);
+    background-position: 0, 0;
   }
   100% {
-    -webkit-transform: rotate(360deg);
+    background-position: 100%, 100%;
   }
 }
-@keyframes animation03 {
+@keyframes animation22 {
   0% {
-    transform: rotate(0deg);
+    background-position: 0, 0;
   }
   100% {
-    transform: rotate(360deg);
+    background-position: 100%, 100%;
   }
-}　
+}
 
 
 /*ヘッダー画面*/
