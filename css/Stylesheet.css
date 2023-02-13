@@ -1,14 +1,16 @@
 @charset "UTF-8";
 /*ロード画面*/
-span.loading22 {
-  position: fixed;
+.load{
   top: 0%;                 /* 表示位置縦(初期値) */
   left: 0%;                /* 表示位置横(初期値) */
   width: 50px;              /* エリア範囲幅 */
   height: 50px;             /* エリア範囲高 */
   text-align: center;       /* エリア内中央 */
   z-index: 999;            /* 重なり一番上 */
-  background-color: #db7f7f;
+  background-color: #f0a6a6;
+}
+span.loading22 {
+  position: fixed;
   display: inline-block;
   width: 200px;
   height: 20px;
