@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /*ロード画面*/
 span.loading22 {
-  margin:0 auto;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
   position: relative;
   display: inline-block;
   width: 170px;
