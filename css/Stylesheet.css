@@ -3,15 +3,13 @@
 span.loading22 {
   position: relative;
   display: inline-block;
-  width: 50px;
-  height: 5px;
+  width: 200px;
+  height: 20px;
   border: 1px solid #e2f8fd;
   overflow: hidden;
   border-radius: 5px;
   background-repeat: repeat-x;
   background-size: 10px 100%;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#e2f8fd), color-stop(0.3, #e2f8fd), color-stop(0.31, transparent), to(transparent) ),
-  -webkit-gradient(linear, left bottom, right top, from(transparent), color-stop(0.69, transparent), color-stop(0.7, #e2f8fd), to(#e2f8fd) );
   background-image: -webkit-linear-gradient(20deg,#e2f8fd 3px,transparent 0),-webkit-linear-gradient(200deg,#e2f8fd 3px,transparent 0);
   background-image: linear-gradient(70deg,#e2f8fd 3px,transparent 0),linear-gradient(250deg,#e2f8fd 3px,transparent 0);
   vertical-align: middle;
