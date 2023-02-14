@@ -72,6 +72,7 @@ ul{
     padding-top: 5px;
     display: flex;
     box-sizing: border-box;
+    text-align: center;
 }
 
 li{
@@ -84,8 +85,4 @@ li{
 
 p{
   font-family: 'Zen Maru Gothic'
-}
-
-.menu{
-  text-align: center;
 }
