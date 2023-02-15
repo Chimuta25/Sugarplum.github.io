@@ -1,0 +1,27 @@
+@charset "utf-8";
+.menu a{
+    font-size:20px;
+    text-decoration: none;
+    font-family: 'Kiwi Maru', serif;
+    color:#ffffff;
+    font-weight:bold;
+}
+
+/*自己紹介*/
+.jikosyokai-txt{
+    text-align: center;
+}
+.jikosyokai-txt2{
+    text-align: center;
+}
+.jikosyokai-txt3{
+    text-align: center;
+}
+
+/*タイトル*/
+.title img{
+    text-align:center;
+}
+.title p{
+ text-align: center;
+}
