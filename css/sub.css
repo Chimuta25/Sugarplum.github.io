@@ -90,9 +90,11 @@ p{
   font-family: 'Zen Maru Gothic'
 }
 
-footer {
+h6 {
   background-color:#ffd2d2;
 	clear: both;
   text-align:center;
+  padding:5px;
+  font-family:'Zen Maru Gothic';
 }
 
