@@ -66,3 +66,21 @@ h2{
     line-height: 1.6;
     padding-top: 40px;
 }
+
+/*Contact*/
+.Contact1{
+    border: solid 2px #FFF;
+    border-radius: 20px;
+    width: 328px;
+    padding: 32px 32px 32px;
+    text-align: center;
+    margin:auto;
+    background: #ffd2d2;
+}
+.Contact1 p{
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Zen maru Gothic';
+    line-height: 1.6;
+    padding-top: 40px;
+}
