@@ -88,10 +88,19 @@ h1{
 }
 
 /*プロフ*/
+.jikosyokai{
+  margin:120px;
+}
 p{
-  font-family: 'Zen Maru Gothic'
+  font-family: 'Zen Maru Gothic';
 }
 
+/*サービス*/
+.title-zenbu{
+    padding:20px;
+    margin-top: 120px;
+    text-align: center;
+}
 /*フッター*/
 h6 {
   background-color:#ffd2d2;
@@ -99,5 +108,9 @@ h6 {
   text-align:center;
   padding:5px;
   font-family:'Zen Maru Gothic';
+}
+
+footer{
+  padding-top:120px;
 }
 
