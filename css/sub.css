@@ -104,6 +104,17 @@ p{
 .title p{
   padding:30px;
 }
+
+/*Works*/
+.Works-zenbu{
+  padding:20px;
+  margin-top: 120px;
+  text-align: center;
+}
+.Works p{
+padding:30px;
+}
+
 /*フッター*/
 h6 {
   background-color:#ffd2d2;
