@@ -19,10 +19,31 @@
 }
 
 /*タイトル*/
-.title img{
-    text-align:center;
+.title{
+    margin: auto;
+    text-align: center;
 }
 .title p{
     margin:auto;
     text-align: center;
+}
+
+/*サービス*/
+.savice1{
+    border: solid 2px #FFF;
+    border-radius: 20px;
+    width: 328px;
+    padding: 32px 32px 32px;
+    text-align: center;
+    background: #ffd2d2;
+}
+.savice1 p{
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Zen maru Gothic';
+    line-height: 1.6;
+    padding-top: 40px;
+}
+h2{
+    font-family: 'kiwi maru';
 }

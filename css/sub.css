@@ -87,10 +87,12 @@ h1{
   padding: 1rem;
 }
 
+/*プロフ*/
 p{
   font-family: 'Zen Maru Gothic'
 }
 
+/*フッター*/
 h6 {
   background-color:#ffd2d2;
 	clear: both;
