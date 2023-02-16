@@ -115,6 +115,16 @@ p{
 padding:30px;
 }
 
+/*Contact*/
+.Contact-zenbu{
+  padding:20px;
+  margin-top: 120px;
+  text-align: center;
+}
+.Contact p{
+padding:30px;
+}
+
 /*フッター*/
 h6 {
   background-color:#ffd2d2;
