@@ -8,3 +8,9 @@ $(function () {
     }, 1300)
   })
 })
+
+
+$(window).on('load', function () {
+	var style = '<link rel="stylesheet" href="zub.css">';
+	$('head link:last').after(style);
+});
