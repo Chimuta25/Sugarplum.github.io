@@ -58,18 +58,15 @@
   }
 }
 
-@keyframes move{
-  0% {
-    -webkit-transform: translateX(0px) rotate(0deg);
-    transform: translateX(0px) rotate(0deg);
+@keyframes fadeDownAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
   }
-  60% {
-    -webkit-transform: translateX(200px) rotate(0deg);
-    transform: translateX(200px) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translateX(200px) rotate(360deg);
-    transform: translateX(200px) rotate(360deg);
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
